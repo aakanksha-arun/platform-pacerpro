@@ -1,0 +1,2 @@
+_sourceCategory=uploads/other
+| where (response_time_sec > 3.0) and (url == "/api/data" )
